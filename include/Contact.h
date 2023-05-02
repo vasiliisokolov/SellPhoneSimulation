@@ -1,5 +1,5 @@
 #pragma once
-
+#include <iostream>
 class Contact
 {
 	std::string name;

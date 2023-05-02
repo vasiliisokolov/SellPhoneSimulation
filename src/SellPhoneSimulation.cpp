@@ -13,6 +13,7 @@ enum operation
 int main()
 {
 	std::cout << "YouPhone." << std::endl;
+	Phone phone;
 	int op;
 	while (true)
 	{
@@ -27,13 +28,13 @@ int main()
 			switch (op)
 			{
 			case operation::add:
-				
+				phone.addContact();
 				break;
 			case operation::call:
-				
+				phone.callContact();
 				break;
 			case operation::sms:
-				
+				phone.smsContact();
 				break;
 			case operation::ex:
 
@@ -41,9 +42,5 @@ int main()
 
 			}
 		}
-
-
 	}
-
-	return 0;
 }
