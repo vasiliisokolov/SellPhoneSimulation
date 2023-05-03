@@ -16,7 +16,10 @@ class Phone
 			{
 				return phoneBook[i].getName();
 			}
+				
 		}
+
+		return "Error! Wrong number or name!";
 	}
 
 public:
